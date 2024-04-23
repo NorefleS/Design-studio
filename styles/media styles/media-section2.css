@@ -1,0 +1,46 @@
+@media screen and (max-width: 376px) {
+    .main__section2 {
+        height: 1553px;
+        padding: 36px 17px 0px;
+        background-color: #181818;
+    }
+
+    .main__section2_container1 {
+        display: none;
+    }
+
+    .section2_image {
+        display: none;
+    }
+
+    .main__section2_h2 {
+        margin-bottom: 22px;
+        text-align: center;
+    }
+
+    .main__section2_text {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .section2__media_image {
+        margin-bottom: 36px;
+        display: block;
+    }
+
+    .main__section2_h3 {
+        font-size: 14px;
+    }
+
+    .main__section2_span {
+        font-size: 11px;
+    }
+
+    .section2__arrows {
+        display: none;
+    }
+
+    .main__section2_feature {
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,25 @@
+@media screen and (width: 2500px) {
+    .layout {
+        width: 100%;
+    }
+
+    .main__section1 {
+        width: 100%;
+        padding-top: 194px;
+        padding-left: 684px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images-media/section1_media.png");
+    }
+
+    .main__section2 {
+        padding-top: 107px;
+        padding-left: 684px;
+    }
+
+    .main__section2_container1, .main__section2_container2 {
+        width: 1171px;
+    }
+
+    .main__section3, .main__section4, .main__section5, .main__section6, .main__section7, .footer {
+        display: none;
+    }
+}

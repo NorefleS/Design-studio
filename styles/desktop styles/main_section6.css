@@ -1,0 +1,61 @@
+.main__section6 {
+    height: 1066px;
+    margin-top: 69px;
+}
+
+.section6__paragraph {
+    margin-bottom: 39px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 164%;
+    text-align: center;
+    color: #363636;
+}
+
+.section6__block {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+.section6__card {
+    width: 376px;
+    height: 455px;
+    padding-top: 24px;
+    padding-left: 20px;
+    background: #fff;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.04);
+}
+
+.card__photo-name {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.card__name {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 127%;
+    color: #181818;
+}
+
+.section6__card_text {
+    width: 324px;
+    margin-top: 22px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
+
+.section6_blockInfo {
+    margin-top: -27px;
+}
+
+.section6_blockImage {
+    box-shadow: 5px 5px 20px 0 rgba(227, 184, 115, 0.5);
+}

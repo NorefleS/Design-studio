@@ -1,0 +1,55 @@
+.header {
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    background-color: #131313;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__company-name {
+    margin-right: 95px;
+    cursor: pointer;
+}
+
+.header__nav {
+    margin-right: 67px;
+}
+
+.header__number {
+    margin-right: 45px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.span {
+    font-weight: 400;
+    font-size: 11px;
+    color: #e3b873;
+}
+
+.header__list {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.header__link {
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__link:hover {
+    color: #e3b873;
+}
+
+.header__button {
+    width: 161px;
+    height: 37px;
+}

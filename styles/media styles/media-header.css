@@ -1,0 +1,16 @@
+@media screen and (max-width: 376px) {
+    .header {
+        height: 57px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .header__number {
+        margin-right: 0;
+        color: #fff;
+        text-decoration: none;
+    }
+}

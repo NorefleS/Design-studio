@@ -1,0 +1,48 @@
+.main__section1 {
+    padding: 194px 630px 208px 134px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/img_section1.png");
+    background-repeat: no-repeat;
+}
+
+.main__section1_container {
+    width: 676px;
+    height: 305px;
+}
+
+.main__section1_h1 {
+    margin-bottom: 19px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main__section1_h1_span {
+    color: #e3b873;
+}
+
+.main__section1_h1_text {
+    margin-bottom: 41px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+}
+
+.main__section1_buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.main__section1_button1 {
+    width: 207px;
+    height: 51px;
+}
+
+.main__section1_button2 {
+    width: 207px;
+    height: 51px;
+    border: 1px solid #fff;
+    background: none;
+    box-shadow: none;
+}

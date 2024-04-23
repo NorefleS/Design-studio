@@ -1,0 +1,23 @@
+@media screen and (max-width: 376px) {
+    .main__section5 {
+        position: relative;
+        margin-bottom: -121px;
+        padding-top: 55px;
+        padding-bottom: 0;
+        z-index: 1;
+    }
+
+    .section5__block {
+        display: none;
+    }
+
+    .section5__blockNone {
+        display: block;
+    }
+
+    .section5__h3 {
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,83 @@
+@media screen and (max-width: 376px) {
+    .main__section3 {
+        height: 851px;
+        margin-top: -826px;
+        margin-bottom: 58px;
+    }
+
+    .main__section3_video {
+        width: 340px;
+        height: 207px;
+        margin-bottom: 28px;      
+    }
+
+    .img_section3_play {
+        width: 37px;
+        height: 37px;
+        position: absolute;
+        top: 85px;
+        left: 152px;
+    }
+
+    .main__section3_line {
+        margin-bottom: 21.5px;
+    }
+
+    .main__section3_text {
+        width: 340px;
+        margin-bottom: 60px;
+        font-size: 11px;
+        color: #fff;
+    }
+
+    .main__section3_form {
+        width: 340px;
+    }
+
+    .main__section3_user-data {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .main__section3_name-phone:first-child {
+        margin-bottom: 63px;
+    }
+
+    .name-phoneBlock {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .name-phone {
+        width: 340px;
+        background: #181818;
+        border-bottom: 1px solid #fff;
+    }
+
+    .name-phone::placeholder {
+        color: #fff;
+    }
+
+    .section3__label {
+        display: none;
+    }
+
+    .section3__labelNone {
+        margin-top: 26.5px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .checkboxText__media {
+        color: #fff;
+    }
+
+    .main__section3_button {
+        width: 340px;
+        margin-top: 62.5px;
+    }
+
+    .icon {
+        margin-bottom: 40px;
+    }
+}
+

@@ -1,0 +1,260 @@
+.main__section4_h3 {
+    margin-bottom: 13px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #181818;
+}
+
+/*-------cards Block-------*/
+
+.main__section4_cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.image-card {
+    width: 392px;
+    position: relative;
+    z-index: -1;
+}
+
+.card_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.cards__block {
+    width: 330px;
+    height: 286px;
+    margin: 0 auto;
+    margin-top: -127px;
+    padding-top: 25px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    z-index: 1;
+}
+
+.cards__h3 {
+    margin-bottom: 13px;
+    margin-left: 34px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #363636;
+}
+
+.cards__list {
+    margin-left: 34px;
+    list-style-position: inside;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 205%;
+    color: #959595;
+}
+
+.cards__info {
+    width: 228px;
+    height: 54px;
+    margin-top: -26px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0 rgba(227, 184, 115, 0.3);
+    background: #e3b873;
+    z-index: 2;
+}
+
+.cards__info_text {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*-------info Block-------*/
+
+.main__section4_info-form {
+    margin-top: 124px;
+    display: flex;
+    gap: 131px;
+}
+
+.main__section4_infoBlock {
+    width: 703px;
+    padding-top: 117px;
+    background-image: url("/images/info_bg.png");
+    background-repeat: no-repeat;
+}
+
+.main__section4_info {
+    margin-right: 79px;
+    margin-left: 249px;
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+
+.number-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-info {
+    border-radius: 30px;
+    box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.15);
+}
+
+.text-info {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #363636;
+}
+
+/*-------form Block-------*/
+
+.main__section4_form {
+    width: 506px;
+    height: 509px;
+    margin-top: 117px;
+    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.05);
+    background: #131313;
+}
+
+.section4__form_h3 {
+    width: 297px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 39px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.section4__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4_user-data {
+    margin-left: 49px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.section4__formBlock {
+    width: 408px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.formName {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.formInput {
+    padding-bottom: 8px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #131313;
+}
+
+.formInput::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.formInput:focus {
+    outline: none;
+}
+
+/*-------section4__checkbox-------*/
+
+.section4__label {
+    margin-left: 49px;
+    margin-bottom: 39px;
+    display: flex;
+    gap: 8.6px;
+    cursor: pointer;
+}
+
+.section4__checkbox {
+    display: none;
+}
+
+.section4__checkbox:checked + .fake::before{
+    opacity: 1;
+}
+
+.section4__checkboxText {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*-------section4__button-------*/
+
+.section4__button {
+    width: 213px;
+    height: 51px;
+    margin-left: 244px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: none;
+    box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.15);
+    background: #e3b873;
+    cursor: pointer;
+}
+
+/*-------logoText-------*/
+
+.section4__logoText {
+    margin-top: 38px;
+    margin-bottom: 130px;
+    margin-left: 866.5px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.section4__logoText_logo {
+    border-radius: 100%;
+    box-shadow: 0 10px 20px 0 rgba(237, 192, 120, 0.2);
+}
+
+.section4__logoText_text {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #e3b873;
+    text-shadow: 0 3px 10px 0 rgba(227, 184, 115, 0.15);
+}

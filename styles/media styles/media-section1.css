@@ -1,0 +1,29 @@
+@media screen and (max-width: 376px) {
+    .main__section1 {
+        padding: 85px 18px 61px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images-media/img_section1_media.png");
+        background-repeat: no-repeat;
+    }
+    .main__section1_container {
+        width: 339px;
+        height: 330px;
+    }
+    .main__section1_h1 {
+        margin-bottom: 16px;
+        font-size: 23px;
+    }
+    .main__section1_h1_text {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+    .main__section1_buttons {
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+    .main__section1_button1 {
+        width: 338px;
+    }
+    .main__section1_button2 {
+        width: 338px;
+    }
+}

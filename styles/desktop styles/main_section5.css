@@ -1,0 +1,83 @@
+.main__section5 {
+    padding-top: 114px;
+    padding-bottom: 41px;
+}
+
+.section5__block {
+    height: 864px;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/section5_bg.png");
+}
+
+.main__section5_container1 {
+    padding-left: 99px;
+    padding-top: 137px;
+    margin-right: 190px;
+}
+
+.section5__h3 {
+    margin-bottom: 47px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #e3b873;
+}
+
+.section5__refBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.section5__ref {
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.section5__ref:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: #e3b873;
+}
+
+.main__section5_container2 {
+    display: flex;
+    gap: 43px;
+}
+
+.section5__container2_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.section5__container2_flex:first-child {
+    margin-top: -41px;
+}
+
+.section5__container2_flex:nth-child(2) {
+    margin-top: -112.5px;
+}
+
+.section5__blockNone {
+    display: none;
+}
+
+.section5__media_image {
+    width: 340px;
+    height: 242px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section5__media_arrows {
+    display: flex;
+    gap: 241px;
+    position: absolute;
+    top: 103px;
+    left: 14px;
+}

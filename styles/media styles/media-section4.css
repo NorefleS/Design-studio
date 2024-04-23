@@ -1,0 +1,39 @@
+@media screen and (max-width: 376px) {
+    .main__section4_cards {
+        gap: 59px;
+    }
+
+    .image-card {
+        width: 340px;
+    }    
+
+    .cards__block {
+        width: 270px;
+        height: 241px;
+        margin: 0;
+        margin-top: -142px;
+    }
+
+    .cards__h3 {
+        font-size: 15px;
+    }
+
+    .cards__list {
+        line-height: 170%;
+    }
+
+    .cards__info {
+        width: 190px;
+        height: 40px;
+        margin-top: -20px;
+        margin-left: 0px;
+    }
+
+    .cards__info_text {
+        font-size: 15px;
+    }
+
+    .main__section4_info-form, .section4__logoText {
+        display: none;
+    }
+}
